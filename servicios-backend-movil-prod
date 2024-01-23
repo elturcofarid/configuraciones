@@ -1,0 +1,22 @@
+
+eureka.client.serviceUrl.defaultZone=http://eureka-server
+
+
+logging.file.name:/var/logs/servicio/servicio-backend-movil.log
+
+logging.level.org.hibernate=DEBUG
+logging.level.org.springframework=DEBUG
+
+#solati
+user.solati = adminfoapps
+password.solati = 2cgC#NPS*8
+url.solati = jdbc:postgresql://10.10.8.15:5432/bdgeneral
+dataSourceClassName.solati = org.postgresql.ds.PGSimpleDataSource
+
+
+#demosmart
+user.demosmart = postgres
+password.demosmart =
+url.demosmart = jdbc:postgresql://10.10.9.25:5433/bdgeneral
+dataSourceClassName.demosmart = org.postgresql.ds.PGSimpleDataSource
+
